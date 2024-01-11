@@ -1,5 +1,14 @@
-.planetcontainer{
+.planetcontainer {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  
 }
 
+#name {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3rem;
+}
+
+#land {
+  margin-top: 1.7rem;
+}
