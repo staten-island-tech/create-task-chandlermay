@@ -1,4 +1,6 @@
 import '../style.css';
 import { DOMselectors } from './doms';
 
-DOMselectors.name
+DOMselectors.land.addEventListener("click", function(){
+    
+})
