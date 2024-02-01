@@ -1,8 +1,8 @@
 const DOMselectors = {
-    name: document.querySelectorAll("#name"),
+    name: document.querySelector("#name"),
     container: document.querySelector(".container"),
     img: document.querySelectorAll(".img"),
-    response: document.querySelectorAll(".response"),
+    response: document.querySelector("#response"),
     submit: document.querySelector(".submit"),
 }
 

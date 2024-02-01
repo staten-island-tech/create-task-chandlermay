@@ -13,7 +13,7 @@ function createCard(i) {
     const card = `
     <p id="name">Who Am I?</p>
     <img class="img" alt="character-image" src="${characters[i].displayIcon}">
-    <input type="text" class ="response">
+    <input type="text" id ="response">
     <button class="submit">Submit</button>
     `
     DOMselectors.container.insertAdjacentHTML("afterbegin", card);
