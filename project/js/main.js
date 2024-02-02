@@ -35,9 +35,7 @@ DOMselectors.name.innerHTML = "Not quite, try again.";
 
 createCard(i);
 
-console.log(document.querySelector("#button"))
 document.querySelector("#button").addEventListener("click", function(){
-    const x =DOMselectors.input.value;
-    console.log(x);
+   checkGuess();
 })
 //netlify link, video, pdf of full code, pdf of personal choices 
