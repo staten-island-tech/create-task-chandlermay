@@ -1,22 +1,4 @@
-.planetcontainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#name {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 3rem;
-}
-
-#land {
-  margin-top: 1.7rem;
-}
-
-.elist {
-  justify-content: space-around;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
+.img {
+  max-width: 20rem;
+  max-height: 20rem;
 }

@@ -2,21 +2,18 @@ import '../style.css';
 import { DOMselectors } from './doms';
 import { characters } from './endor';
 
-const i = 0
+let i = 0
+let done = false
 
 function clearScreen() {
     DOMselectors.container.innerHTML = ""
+    DOMselectors.input.value = ""
 }
 
 function createCard(i) {
     clearScreen();
     const card = `
-    <p id="name">Who Am I?</p>
     <img class="img" alt="character-image" src="${characters[i].displayIcon}">
-    <form>
-        <input type="text" id ="input">
-    </form>
-    <button id="button">Submit</button>
     `
     DOMselectors.container.insertAdjacentHTML("afterbegin", card);
 }
@@ -38,4 +35,10 @@ createCard(i);
 document.querySelector("#button").addEventListener("click", function(){
    checkGuess();
 })
+
+// while (i<8){
+//     console.log(`"${8-i} questions left"`);
+//     if (i>8) break;
+// }
+
 //netlify link, video, pdf of full code, pdf of personal choices 

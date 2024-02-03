@@ -5,7 +5,7 @@ const DOMselectors = {
     input: document.querySelector("#input"),
     button: document.querySelector("#button"),
     form: document.querySelector("#form"),
-
+    everything: document.querySelector("#everything"),
 }
 
 export {DOMselectors};
