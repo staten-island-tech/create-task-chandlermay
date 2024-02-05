@@ -5,10 +5,12 @@ function convertToFahrenheit(fahrenheit) {
 
 let temperatureHistory = [];
 
+function startCalculations(){
+
 while (true) {
     let userInput = prompt("Enter temperature in Fahrenheit (type 'exit' to end):");
     if (userInput.toLowerCase() === 'exit') {
-        break; // Exit the loop if the user types 'exit'
+        break;
     }
     let fahrenheitTemperature = parseFloat(userInput);
     if (!isNaN(fahrenheitTemperature)) {
@@ -23,4 +25,6 @@ while (true) {
 console.log("Temperature History Log:");
 temperatureHistory.forEach((entry, index) => {
     console.log(`${index + 1}. ${entry}`);
-});
+})};
+
+startCalculations();
